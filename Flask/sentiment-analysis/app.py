@@ -11,7 +11,7 @@ def sent_analyzer():
     score = response['score']
     if label is None:
         return "Invalid Input! Try Again!"
-    return "The given text has been identified as {} with a score of {}.".format(label.split('_')[1], score)
+    return "The given text has been identified as {} with a score of {}.".format(label, score)
 
 @app.route("/")
 def render_index_page():
