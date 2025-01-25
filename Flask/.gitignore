@@ -1,1 +1,2 @@
 .venv/
+.sentiment-analysis/__pycache__
